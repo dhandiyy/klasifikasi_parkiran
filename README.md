@@ -5,7 +5,7 @@ Model klasfikasi untuk menentukan objek kendaraan dan kebenaran letak kendaraan 
 
 Terdapat dua model klasifikasi pada projek ini. Model pertama untuk menentukan kendaraan (kelas) yaitu Mobil, Motor, Orang dan Kosong. Model kedua untuk menentukan apakah kendaraan parkir sudah sesuai dengan garis parkira atau tidak.
 
-***Dataset***
+##***Dataset***
 Saya membuat dataset sendiri dengan menggunakan video yang sudah diambil sebelumnya. link dataset dapat di download here.
 Dataset model pertama:
 https://www.kaggle.com/datasets/dhandiyy/new-parkir
@@ -14,7 +14,7 @@ https://www.kaggle.com/datasets/dhandiyy/parkir-2
 
 Ukuran gambar pada dataset disesuaikan sesuai dengan ukuran kotak parkir agar mendapatkan hasil yang lebih akurat. Dataset pada model pertama terdapat empat kelas yaitu Mobil, Motor, Orang dan Kosong. Dataset pada model kedua menggunakan dua kelas yaitu keadaan parkir yang benar dan salah.
 
-***Model***
+##***Model***
 Pembuatan kedua model tersebut menggunakan teknik ****Transfer Learning**** memanfaatkn model yang sudah ada yaitu MobilNetV3 agar mendapatkan model yang berukuran kecil tetapi tetap dapat diandalkan. Model tersebut nantinya dapat digunakan pada perangkat yang mempunyai tingkat komputasi yang rendah.
 
 Pembuatan model pertama:
