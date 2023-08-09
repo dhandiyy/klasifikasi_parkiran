@@ -1,0 +1,13 @@
+Module, Library dan Package yang digunakan:
+-OpenCV
+-TensorFlow
+-Numpy
+-TensorFlow Hub
+-Keras 
+-Scikit-image
+--------------------------------------------
+model_parkir_1.h5 digunakan untuk klasifikasi objek
+model_parkir_2.h5 digunakan untuk klasifikasi parkir benar atau tidak
+
+Letakkan model 1 dan 2 serta mask image pada folder yang sama dengan file main_ini_aja.py.
+Koneksi video di "cap = cv2.VideoCapture(ganti dengan resource yang tersedia)"
