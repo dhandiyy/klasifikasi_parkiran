@@ -1,10 +1,8 @@
 # klasifikasi_parkiran
-Model klasfikasi untuk menentukan objek kendaraan dan kebenaran letak kendaraan dalam proses parkir
 ![](hasil_short.gif)
 ## **Klasifikasi kendaraan di parkiran dan penempatannya menggunakan TensorFlow**
 
-Terdapat dua model klasifikasi pada projek ini. Model pertama untuk menentukan kendaraan (kelas) yaitu Mobil, Motor, Orang dan Kosong. Model kedua untuk menentukan apakah kendaraan parkir sudah sesuai dengan garis parkiran atau tidak. 
-
+Model klasfikasi untuk menentukan objek kendaraan dan kebenaran letak kendaraan dalam proses parkir. Terdapat dua model klasifikasi pada projek ini. Model pertama untuk menentukan kendaraan (kelas) yaitu Mobil, Motor, Orang dan Kosong. Model kedua untuk menentukan apakah kendaraan parkir sudah sesuai dengan garis parkiran atau tidak. 
 ![](video2.gif)
 
 ## ***Dataset***
@@ -21,9 +19,9 @@ Ukuran gambar pada dataset disesuaikan sesuai dengan ukuran kotak parkir agar me
 
 Pembuatan kedua model tersebut menggunakan teknik ****Transfer Learning**** memanfaatkn model yang sudah ada yaitu MobilNetV3 agar mendapatkan model yang berukuran kecil tetapi tetap dapat diandalkan. Model tersebut nantinya dapat digunakan pada perangkat yang mempunyai tingkat komputasi yang rendah.
 
-<img src="mobil.jpg" alt="Hasil deteksi kendaraan Mobil" width="400" height="300">
-<img src="motor.jpg" alt="Hasil deteksi kendaraan Motor" width="400" height="300">
-<img src="kosong_orang.jpg" alt="Hasil deteksi Orang dan Keadaan kosong" width="400" height="300">
+<img src="mobil.jpeg" alt="Hasil deteksi kendaraan Mobil" width="400" height="300">
+<img src="motor.jpeg" alt="Hasil deteksi kendaraan Motor" width="400" height="300">
+<img src="kosong dan orang.jpeg" alt="Hasil deteksi Orang dan Keadaan kosong" width="400" height="300">
 
 Saat model mendeteksi mobil garis kotak akan berwarna hijau, berwarna merah saat mendeteksi motor dan berwarna biru saat mendeteksi orang dan tidak ada objek. Pengaturan warna garis kotak dapat disesuaikan sesuai kebutuhan. Model kedua akan mengeluarkan informasi ketika mobil terparkir dengan benar maupun tidak
 
